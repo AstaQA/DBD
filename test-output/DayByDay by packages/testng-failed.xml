@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DayByDay by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionSuite(failed)">
+    <classes>
+      <class name="RegressionSuite.EteAdvancemint">
+        <methods>
+          <include name="setUp"/>
+          <include name="EteAdvancemint"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- RegressionSuite.EteAdvancemint -->
+    </classes>
+  </test> <!-- RegressionSuite(failed) -->
+</suite> <!-- Failed suite [DayByDay by packages] -->
