@@ -1,0 +1,60 @@
+10:12:09.071 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.22.0
+10:12:09.074 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.1.0
+10:12:09.298 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:12:09.298 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Eclipce-workplace\DBD\DayByDay\browserstack.yml
+10:12:09.343 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:12:09.957 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://sample.app]
+10:12:09.957 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+10:12:12.274 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+10:12:13.289 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:12:14.298 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:12:23.050 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:12:24.999 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:12:25.003 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Eclipce-workplace\DBD\DayByDay\browserstack.yml
+10:12:25.028 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:12:25.032 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Eclipce-workplace\DBD\DayByDay\browserstack.yml
+10:12:25.108 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:12:25.112 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Eclipce-workplace\DBD\DayByDay\browserstack.yml
+10:12:25.125 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:12:25.146 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:12:25.198 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:12:27.923 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:12:27.992 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+10:12:28.073 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:12:28.088 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:12:28.137 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+10:12:28.154 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+10:13:40.615 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+10:13:49.519 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/515dc1dcd83b7fbf76e99c6bd54e3feaf958f0a2
+10:13:49.519 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:17:10.117 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.22.0
+10:17:10.119 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.1.0
+10:17:10.317 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:17:10.317 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Eclipce-workplace\DBD\DayByDay\browserstack.yml
+10:17:10.365 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:17:11.049 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+10:17:13.667 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:17:14.815 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:17:19.389 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:20:31.007 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+10:20:31.493 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/g9wojxcpy0ujigduicmwinpbx9jfditcw31lufdu to view build report, insights, and many more debugging information all at one place!
+
+10:20:31.494 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:20:35.835 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/82eac7f98369a9905d5f06c1a3c231b822959381
+10:20:35.835 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:56:59.559 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.22.0
+09:56:59.565 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.1.0
+09:57:00.067 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+09:57:00.069 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Eclipce-workplace\DBD\DayByDay\browserstack.yml
+09:57:00.178 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:57:01.141 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+09:57:04.350 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+09:57:05.818 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:57:14.798 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:58:41.629 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+09:58:41.860 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/jsqxpgbirbbio7binm5ls1xwsbt6dnnacvvglusz to view build report, insights, and many more debugging information all at one place!
+
+09:58:41.860 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:58:46.935 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/d1361d79906f87e417ee735e8cf875bb4f345a7f
+09:58:46.935 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:59:45.133 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
