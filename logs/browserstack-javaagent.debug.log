@@ -1,0 +1,1431 @@
+10:12:09.298 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:12:09.593 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+10:12:09.593 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+10:12:09.928 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener org.testng.reporters.EmailableReporter2 -socket63510 @w@C:\Users\SiddharthKoka\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\SiddharthKoka\AppData\Local\Temp\idea_testng.tmp
+10:12:09.928 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+10:12:09.934 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+10:12:09.956 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+10:12:09.956 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+10:12:09.956 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.26.0
+10:12:09.960 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+10:12:09.960 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+10:12:09.960 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+10:12:09.960 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+10:12:10.376 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-apse.browserstack.com","hub-aps.browserstack.com","hub-usw.browserstack.com"]
+10:12:10.547 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 170ms
+10:12:11.376 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 827ms
+10:12:12.269 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 893ms
+10:12:12.271 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-apse.browserstack.com
+10:12:12.286 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"NNkYHs8GUu9TTpEkAfk4","userName":"astadev1","event_properties":{"product":"[app-automate]","buildName":"browserstack build","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"8.1.0","frameworkDetectionInstrumentation":{"parseLoadClass":4,"parseDependencies":22},"language":"java","sdkRunId":"e13e5940-6f63-41c4-a0d0-752f3e9e9bf4","buildIdentifier":"#4","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":false,"observability":false,"turboscale":false},"referrer":"junit5-javaagent\/1.26.0","hostname":"ASTA-10L8DL3","language_framework":"java_junit5","detectedFramework":"testng","detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+10:12:13.289 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+10:12:13.302 [main] DEBUG c.browserstack.utils.UtilityMethods - Exception in getting the framework version. Error: java.lang.NullPointerException: Cannot invoke "String.split(String)" because "<parameter1>" is null
+10:12:13.305 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+10:12:13.306 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 763
+10:12:13.306 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 763
+10:12:14.295 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:12:14.295 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:12:14.295 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : nb4cc7zhicbq0yfisnuc1bra5n36im7imaif6gjq
+10:12:14.297 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+10:12:14.300 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 11_Oct_1012_ASTA_10L8DL3_JDM1
+10:12:24.999 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:12:25.028 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:12:25.108 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:12:25.490 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+10:12:25.491 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+10:12:25.491 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.26.0
+10:12:25.546 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+10:12:25.546 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+10:12:25.546 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.26.0
+10:12:25.581 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+10:12:25.582 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+10:12:25.582 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.26.0
+10:12:26.077 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-apse.browserstack.com","hub-aps.browserstack.com","hub-usw.browserstack.com"]
+10:12:26.242 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 159ms
+10:12:26.252 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-apse.browserstack.com","hub-aps.browserstack.com","hub-usw.browserstack.com"]
+10:12:26.278 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-apse.browserstack.com","hub-aps.browserstack.com","hub-usw.browserstack.com"]
+10:12:26.388 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 134ms
+10:12:26.411 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 130ms
+10:12:27.032 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 785ms
+10:12:27.171 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 780ms
+10:12:27.204 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 790ms
+10:12:27.913 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 881ms
+10:12:27.915 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-apse.browserstack.com
+10:12:28.062 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 890ms
+10:12:28.063 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-apse.browserstack.com
+10:12:28.077 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 872ms
+10:12:28.079 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-apse.browserstack.com
+10:12:33.863 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:12:33.865 [main] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 1
+10:12:33.891 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:12:33.901 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:12:33.903 [main] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 1
+10:12:33.919 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:12:33.921 [main] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 1
+10:12:33.937 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:12:33.946 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:12:55.356 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-apse.browserstack.com
+10:12:55.356 [main] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+10:12:55.357 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:12:55.357 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:12:55.393 [Forwarding maximizeCurrentWindow on session c61163416ccdb82ac5df4b53954314b3e6c0d3b2 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+	at RegressionSuite.EteBulkmint.Setup(EteBulkmint.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+10:12:56.199 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-apse.browserstack.com
+10:12:56.199 [main] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+10:12:56.201 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:12:56.201 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:12:56.236 [Forwarding maximizeCurrentWindow on session afa534e54246ab53008fa9132cbd1debaaac7c72 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+	at RegressionSuite.EteBulkmint.Setup(EteBulkmint.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+10:12:57.941 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-apse.browserstack.com
+10:12:57.941 [main] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+10:12:57.942 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:12:57.942 [main] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:12:57.976 [Forwarding maximizeCurrentWindow on session 1d1316ca8ac9ca1c0975ed0e2749e8d251cdc880 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+	at RegressionSuite.EteBulkmint.Setup(EteBulkmint.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+10:13:40.615 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+10:13:40.618 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:13:40.624 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+10:13:40.625 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/nb4cc7zhicbq0yfisnuc1bra5n36im7imaif6gjq/stop with request size 107
+10:13:40.625 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/nb4cc7zhicbq0yfisnuc1bra5n36im7imaif6gjq/stop with request size 107
+10:13:41.585 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+10:13:41.585 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+10:13:41.585 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401
+10:13:41.593 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability Stop request failed. Retrying.. Exception: com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy2.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+10:13:42.287 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+10:13:42.287 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/nb4cc7zhicbq0yfisnuc1bra5n36im7imaif6gjq/stop with request size 107
+10:13:42.287 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/nb4cc7zhicbq0yfisnuc1bra5n36im7imaif6gjq/stop with request size 107
+10:13:42.508 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+10:13:42.508 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+10:13:42.508 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401
+10:13:42.508 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:13:42.508911400Z][ TESTHUB ] Exception in stop build request : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy2.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+
+10:13:43.193 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+10:13:46.706 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse string errors from reports, Exception: java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+10:13:46.707 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+	at java.base/java.io.StringReader.<init>(StringReader.java:50)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+10:13:46.707 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+10:13:46.753 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"NNkYHs8GUu9TTpEkAfk4","userName":"astadev1","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"e13e5940-6f63-41c4-a0d0-752f3e9e9bf4","buildIdentifier":"#4","testhub_uuid":"nb4cc7zhicbq0yfisnuc1bra5n36im7imaif6gjq","detectedAppiumVersion":"null","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":false,"observability":false,"turboscale":false},"hostname":"ASTA-10L8DL3","measures":{"local:start":8750,"sdk:setup":14161,"local:stop":3503},"productUsage":{"testObservability":{"buildHashedId":"nb4cc7zhicbq0yfisnuc1bra5n36im7imaif6gjq","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"11_Oct_1012_ASTA_10L8DL3_JDM1","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"capabilities":{"platformVersion":12.0,"platformName":"android","deviceName":"Samsung Galaxy S22 Ultra"},"browserVersion":null,"osVersion":null,"platformCaps":{"platformVersion":12.0,"platformName":"android","deviceName":"Samsung Galaxy S22 Ultra"},"browser":null,"device":"Samsung Galaxy S22 Ultra","os":null,"platformString":"Samsung Galaxy S22 Ultra, 12.0","customVariables":"****"},{"capabilities":{"platformVersion":11.0,"platformName":"android","deviceName":"Samsung Galaxy S21"},"browserVersion":null,"osVersion":null,"platformCaps":{"platformVersion":11.0,"platformName":"android","deviceName":"Samsung Galaxy S21"},"browser":null,"device":"Samsung Galaxy S21","os":null,"platformString":"Samsung Galaxy S21, 11.0","customVariables":"****"},{"capabilities":{"platformVersion":12.0,"platformName":"android","deviceName":"Google Pixel 6 Pro"},"browserVersion":null,"osVersion":null,"platformCaps":{"platformVersion":12.0,"platformName":"android","deviceName":"Google Pixel 6 Pro"},"browser":null,"device":"Google Pixel 6 Pro","os":null,"platformString":"Google Pixel 6 Pro, 12.0","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"junit5","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"finishedMetadata":{"reason":"user_killed","signal":"SIGINT"},"percyBuildId":null,"product":"[app-automate]","buildName":"browserstack build","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"8.1.0","frameworkDetectionInstrumentation":{"parseLoadClass":4,"parseDependencies":22},"userFramework":"junit5","detectedDependencies":"testng","referrer":"junit5-javaagent\/1.26.0","language_framework":"java_junit5","detectedFramework":"testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+10:13:47.061 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+10:13:49.520 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack build  4) is not same as client side buildName(browserstack build #4)
+10:13:49.522 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
+10:15:55.763 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:15:55.763 [main] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 1
+10:15:55.763 [main] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@aaee2a2
+10:15:56.611 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:15:56.612 [main] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 1
+10:15:56.612 [main] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@11ebb1b6
+10:15:57.061 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:15:57.891 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:15:58.161 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+10:15:58.176 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+10:15:58.176 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:15:58.391 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:15:58.391 [main] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 1
+10:15:58.391 [main] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@7cb8437d
+10:15:58.947 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+10:15:58.962 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+10:15:58.962 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:15:59.656 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:16:00.621 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+10:16:00.633 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+10:16:00.633 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:17:10.317 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+10:17:10.649 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+10:17:10.649 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+10:17:11.020 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener org.testng.reporters.EmailableReporter2 -socket63994 @w@C:\Users\SiddharthKoka\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\SiddharthKoka\AppData\Local\Temp\idea_testng.tmp
+10:17:11.020 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+10:17:11.027 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+10:17:11.049 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+10:17:11.049 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+10:17:11.049 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.26.0
+10:17:11.051 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+10:17:11.051 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+10:17:11.051 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+10:17:11.051 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+10:17:11.378 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-apse.browserstack.com","hub-aps.browserstack.com","hub-usw.browserstack.com"]
+10:17:11.548 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 168ms
+10:17:12.408 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 858ms
+10:17:13.303 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 894ms
+10:17:13.304 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-apse.browserstack.com
+10:17:13.312 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"NNkYHs8GUu9TTpEkAfk4","userName":"astadev1","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"8.1.0","frameworkDetectionInstrumentation":{"parseLoadClass":5,"parseDependencies":22},"language":"java","sdkRunId":"02167ac5-c18a-4eaa-a16c-9f4732cc5ab7","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.26.0","hostname":"ASTA-10L8DL3","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+10:17:13.667 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+10:17:13.680 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+10:17:13.681 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 742
+10:17:13.681 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 742
+10:17:14.814 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:17:14.814 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:17:14.815 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : g9wojxcpy0ujigduicmwinpbx9jfditcw31lufdu
+10:17:14.815 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+10:17:14.819 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 11_Oct_1017_ASTA_10L8DL3_102T
+10:17:19.863 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 3 and number of platforms - 3
+10:17:20.011 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.014 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.017 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.017 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.017 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.019 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.019 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.020 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.020 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.020 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.028 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.029 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.029 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.029 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.029 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.031 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.031 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.032 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.032 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.032 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.037 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.037 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.037 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.041 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.041 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.041 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.053 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.053 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.053 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.053 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.053 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.054 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.055 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.055 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.055 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.055 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.059 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.060 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.060 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.061 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.061 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.062 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.062 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.062 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.062 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.063 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.064 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.064 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.064 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.064 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.065 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.065 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.071 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.071 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.071 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.071 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.071 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.072 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.072 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.073 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.073 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.073 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.076 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.076 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.077 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.077 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.077 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.079 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.079 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.080 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.080 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.080 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.083 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:20.085 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-10-10T23:17:20.085074600Z][ OBSERVABILITY ] Processing Logs patching stream
+10:17:20.153 [Setup@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+10:17:20.153 [Setup@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+10:17:20.153 [Setup@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+10:17:20.154 [Setup@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:17:20.154 [Setup@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:17:20.154 [Setup@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:17:20.186 [Setup@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:17:20.186 [Setup@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:17:20.186 [Setup@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:17:20.187 [Setup@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:17:20.187 [Setup@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:17:20.187 [Setup@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:17:20.189 [Setup@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:17:20.189 [Setup@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:17:20.189 [Setup@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:17:21.541 [Setup@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:17:21.541 [Setup@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:17:21.541 [Setup@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:17:21.543 [Setup@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 51
+10:17:21.543 [Setup@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 50
+10:17:21.543 [Setup@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 49
+10:17:21.564 [Setup@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:17:21.564 [Setup@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:17:21.564 [Setup@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:17:22.020 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1728602242020
+
+10:17:22.023 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 82
+
+10:17:22.025 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 19302
+10:17:22.034 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 19302
+10:17:22.493 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:17:22.493 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:17:22.493 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:17:22.493313900Z][ TESTHUB ] Batch event successfull!
+
+10:17:24.023 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+10:17:27.669 [Setup@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-apse.browserstack.com
+10:17:27.669 [Setup@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+10:17:27.670 [Setup@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:17:27.671 [Setup@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:17:27.706 [Forwarding maximizeCurrentWindow on session 359ba80ae0f9355a9635f65d9d4c5a977d3cad67 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+	at RegressionSuite.EteBulkmint.Setup(EteBulkmint.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+10:17:27.921 [DayByDay-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: RegressionSuite.EteBulkmint 
+10:17:27.921 [DayByDay-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:17:27.932 [DayByDay-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:17:27.932 [DayByDay-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:17:27.958 [DayByDay-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:17:27.958 [DayByDay-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:17:27.958 [DayByDay-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:17:27.958 [DayByDay-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:17:27.961 [DayByDay-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+10:17:28.026 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4003
+
+10:17:28.026 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:17:28.027 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2101
+10:17:28.028 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 2101
+10:17:28.260 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:17:28.261 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:17:28.261 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:17:28.261856200Z][ TESTHUB ] Batch event successfull!
+
+10:17:32.023 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+10:17:34.446 [EteBulkmint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:36.020 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+10:17:36.020 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:17:36.020 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 231
+10:17:36.020 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 231
+10:17:36.251 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:17:36.251 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:17:36.251 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:17:36.251951100Z][ TESTHUB ] Batch event successfull!
+
+10:17:40.024 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4004
+
+10:17:44.029 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4005
+
+10:17:48.022 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3993
+
+10:17:51.358 [EteBulkmint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:52.021 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+10:17:52.021 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:17:52.021 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 243
+10:17:52.021 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 243
+10:17:52.252 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:17:52.252 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:17:52.252 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:17:52.252621300Z][ TESTHUB ] Batch event successfull!
+
+10:17:52.978 [EteBulkmint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:17:54.022 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+10:17:54.022 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:17:54.022 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 227
+10:17:54.022 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 227
+10:17:54.253 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:17:54.254 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:17:54.254 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:17:54.254258300Z][ TESTHUB ] Batch event successfull!
+
+10:17:56.023 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+10:17:58.025 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+10:18:02.019 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3994
+
+10:18:04.150 [EteBulkmint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteBulkmint 
+10:18:04.150 [EteBulkmint@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:04.157 [EteBulkmint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:04.157 [EteBulkmint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:04.161 [EteBulkmint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:04.161 [EteBulkmint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:04.161 [EteBulkmint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:04.161 [EteBulkmint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:04.162 [EteBulkmint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+10:18:04.162 [EteBulkmint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: RegressionSuite.EteBulkmint 
+10:18:04.162 [EteBulkmint@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:04.171 [EteBulkmint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:04.171 [EteBulkmint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:04.175 [EteBulkmint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:04.175 [EteBulkmint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:04.175 [EteBulkmint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:04.175 [EteBulkmint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:04.180 [EteBulkmint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+10:18:04.203 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+10:18:04.203 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:04.210 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:04.210 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:04.218 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:04.218 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:04.218 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:04.218 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:04.218 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:18:04.219 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+10:18:06.022 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4003
+
+10:18:06.022 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 3
+
+10:18:06.023 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 12765
+10:18:06.023 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 12765
+10:18:06.255 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:18:06.255 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:18:06.255 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:18:06.255704300Z][ TESTHUB ] Batch event successfull!
+
+10:18:06.466 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteBulkmint 
+10:18:06.466 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:06.473 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:06.473 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:06.473 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+10:18:06.476 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteAdvancemint 
+10:18:06.476 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteAdvancemint
+10:18:06.485 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:06.485 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:06.485 [setUp@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:18:06.928 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:18:06.929 [setUp@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 49
+10:18:06.930 [setUp@0] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@6d737aeb
+10:18:06.930 [setUp@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+10:18:06.933 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:18:10.016 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3994
+
+10:18:10.016 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+10:18:10.016 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1578
+10:18:10.016 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1578
+10:18:10.250 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:18:10.251 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:18:10.251 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:18:10.251407800Z][ TESTHUB ] Batch event successfull!
+
+10:18:12.017 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+10:18:14.020 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2003
+
+10:18:18.024 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4004
+
+10:18:22.017 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3993
+
+10:18:23.241 [Setup@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-apse.browserstack.com
+10:18:23.241 [Setup@2] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+10:18:23.241 [Setup@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:23.241 [Setup@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:23.245 [Forwarding maximizeCurrentWindow on session cb40add0a269a4d02e796322c9c85d937b4be0b4 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+	at RegressionSuite.EteBulkmint.Setup(EteBulkmint.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+10:18:23.355 [DayByDay-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: RegressionSuite.EteBulkmint 
+10:18:23.355 [DayByDay-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:23.364 [DayByDay-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:23.365 [DayByDay-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:23.367 [DayByDay-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:23.367 [DayByDay-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:23.367 [DayByDay-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:23.367 [DayByDay-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:23.369 [DayByDay-2@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+10:18:24.019 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+10:18:24.019 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:18:24.019 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1827
+10:18:24.019 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1827
+10:18:24.252 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:18:24.252 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:18:24.252 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:18:24.252513700Z][ TESTHUB ] Batch event successfull!
+
+10:18:26.020 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+10:18:26.262 [EteBulkmint@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:18:26.662 [EteBulkmint@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteBulkmint 
+10:18:26.662 [EteBulkmint@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:26.671 [EteBulkmint@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:26.671 [EteBulkmint@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:26.672 [EteBulkmint@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:26.672 [EteBulkmint@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:26.672 [EteBulkmint@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:26.673 [EteBulkmint@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:26.673 [EteBulkmint@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+10:18:26.673 [EteBulkmint@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: RegressionSuite.EteBulkmint 
+10:18:26.673 [EteBulkmint@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:26.683 [EteBulkmint@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:26.683 [EteBulkmint@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:26.685 [EteBulkmint@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:26.685 [EteBulkmint@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:26.685 [EteBulkmint@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:26.685 [EteBulkmint@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:26.688 [EteBulkmint@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+10:18:26.708 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+10:18:26.708 [tearDown@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:26.717 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:26.718 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:26.719 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:26.719 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:26.720 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:26.720 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:26.720 [tearDown@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:18:26.720 [tearDown@2] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+10:18:28.800 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteBulkmint 
+10:18:28.800 [tearDown@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:28.809 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:28.809 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:28.809 [tearDown@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+10:18:28.811 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteAdvancemint 
+10:18:28.811 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteAdvancemint
+10:18:28.820 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:28.820 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:28.820 [setUp@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:18:29.349 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:18:29.349 [setUp@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 51
+10:18:29.349 [setUp@2] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@742fde28
+10:18:29.349 [setUp@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+10:18:29.354 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:18:30.019 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+10:18:30.019 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 6
+
+10:18:30.020 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 12647
+10:18:30.020 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 12647
+10:18:30.252 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:18:30.252 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:18:30.252 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:18:30.252488300Z][ TESTHUB ] Batch event successfull!
+
+10:18:32.021 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+10:18:34.025 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2004
+
+10:18:35.238 [Setup@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-apse.browserstack.com
+10:18:35.239 [Setup@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+10:18:35.239 [Setup@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:35.239 [Setup@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:35.244 [Forwarding maximizeCurrentWindow on session 2f0d3331aca41212f125e090c43ad6ef4162f91a to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+	at RegressionSuite.EteBulkmint.Setup(EteBulkmint.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+10:18:35.352 [DayByDay-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: RegressionSuite.EteBulkmint 
+10:18:35.352 [DayByDay-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:18:35.359 [DayByDay-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:18:35.359 [DayByDay-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:18:35.360 [DayByDay-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:35.360 [DayByDay-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:35.360 [DayByDay-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:18:35.360 [DayByDay-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:18:35.363 [DayByDay-1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+10:18:36.027 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+10:18:36.027 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:18:36.027 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1522
+10:18:36.027 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1522
+10:18:36.259 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:18:36.259 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:18:36.259 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:18:36.259362700Z][ TESTHUB ] Batch event successfull!
+
+10:18:39.268 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:18:40.026 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+10:18:40.026 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:18:40.026 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 231
+10:18:40.026 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 231
+10:18:40.257 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:18:40.258 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:18:40.258 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:18:40.258295900Z][ TESTHUB ] Batch event successfull!
+
+10:18:44.016 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3990
+
+10:18:48.016 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+10:18:50.026 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2010
+
+10:18:52.028 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+10:18:56.015 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3987
+
+10:18:58.029 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2014
+
+10:18:58.528 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:18:58.935 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:19:02.024 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3995
+
+10:19:02.024 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+10:19:02.024 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 469
+10:19:02.024 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 469
+10:19:02.255 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:19:02.255 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:19:02.255 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:19:02.255610200Z][ TESTHUB ] Batch event successfull!
+
+10:19:06.029 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4005
+
+10:19:10.015 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3986
+
+10:19:11.920 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteBulkmint 
+10:19:11.921 [EteBulkmint@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:19:11.928 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:19:11.928 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:19:11.930 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:19:11.930 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:19:11.930 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:19:11.930 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:19:11.930 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+10:19:11.930 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: RegressionSuite.EteBulkmint 
+10:19:11.930 [EteBulkmint@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:19:11.940 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:19:11.940 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:19:11.942 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:19:11.942 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:19:11.942 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:19:11.942 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:19:11.944 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+10:19:11.962 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+10:19:11.962 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:19:11.973 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:19:11.973 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:19:11.976 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:19:11.976 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:19:11.976 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:19:11.976 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:19:11.976 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:19:11.976 [tearDown@1] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+10:19:12.017 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+10:19:12.018 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 3
+
+10:19:12.018 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 9967
+10:19:12.019 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 9967
+10:19:12.254 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:19:12.254 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:19:12.254 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:19:12.254528200Z][ TESTHUB ] Batch event successfull!
+
+10:19:14.021 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2004
+
+10:19:14.335 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteBulkmint 
+10:19:14.335 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+10:19:14.341 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:19:14.342 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:19:14.342 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+10:19:14.343 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteAdvancemint 
+10:19:14.343 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteAdvancemint
+10:19:14.351 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:19:14.351 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:19:14.351 [setUp@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:19:14.793 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:19:14.793 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 50
+10:19:14.793 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@2209e0af
+10:19:14.794 [setUp@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+10:19:14.796 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+10:19:18.025 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4004
+
+10:19:18.025 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+10:19:18.025 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1578
+10:19:18.025 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1578
+10:19:18.255 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:19:18.255 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:19:18.256 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:19:18.256568800Z][ TESTHUB ] Batch event successfull!
+
+10:19:22.018 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3993
+
+10:19:26.028 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4010
+
+10:19:27.321 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-usw.browserstack.com
+10:19:27.321 [setUp@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+10:19:27.321 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:19:27.321 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:19:27.338 [Forwarding maximizeCurrentWindow on session 327edc9f916509651006dab1afd6d630eb73b2bc to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+	at RegressionSuite.EteAdvancemint.setUp(EteAdvancemint.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+10:19:27.836 [DayByDay-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: RegressionSuite.EteAdvancemint 
+10:19:27.836 [DayByDay-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteAdvancemint
+10:19:27.843 [DayByDay-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:19:27.843 [DayByDay-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:19:27.846 [DayByDay-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:19:27.846 [DayByDay-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:19:27.846 [DayByDay-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:19:27.846 [DayByDay-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:19:27.850 [DayByDay-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+10:19:30.025 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+10:19:30.025 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:19:30.025 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2121
+10:19:30.025 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 2121
+10:19:30.257 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:19:30.257 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:19:30.257 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:19:30.257224100Z][ TESTHUB ] Batch event successfull!
+
+10:19:32.027 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+10:19:36.024 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+10:19:38.026 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+10:19:40.035 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2009
+
+10:19:44.025 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3990
+
+10:19:44.268 [EteAdvancemint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:19:48.014 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3989
+
+10:19:48.014 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:19:48.014 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 231
+10:19:48.015 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 231
+10:19:48.257 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:19:48.257 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:19:48.258 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:19:48.258666200Z][ TESTHUB ] Batch event successfull!
+
+10:19:50.024 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2010
+
+10:19:54.021 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+10:19:58.025 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4004
+
+10:20:02.024 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+10:20:04.347 [EteAdvancemint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:20:06.014 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3990
+
+10:20:06.014 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:20:06.014 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 243
+10:20:06.014 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 243
+10:20:06.245 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:20:06.245 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:20:06.245 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:20:06.245572200Z][ TESTHUB ] Batch event successfull!
+
+10:20:08.029 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2015
+
+10:20:12.016 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3987
+
+10:20:14.025 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2008
+
+10:20:18.028 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4003
+
+10:20:22.014 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3986
+
+10:20:23.550 [EteAdvancemint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+10:20:24.022 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2008
+
+10:20:24.022 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+10:20:24.022 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 235
+10:20:24.022 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 235
+10:20:24.252 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:20:24.252 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:20:24.252 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:20:24.252844300Z][ TESTHUB ] Batch event successfull!
+
+10:20:26.028 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2006
+
+10:20:30.027 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+10:20:30.901 [EteAdvancemint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteAdvancemint 
+10:20:30.902 [EteAdvancemint@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteAdvancemint
+10:20:30.910 [EteAdvancemint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:20:30.910 [EteAdvancemint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:20:30.915 [EteAdvancemint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:20:30.915 [EteAdvancemint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:20:30.915 [EteAdvancemint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:20:30.915 [EteAdvancemint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:20:30.915 [EteAdvancemint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+10:20:30.915 [EteAdvancemint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: RegressionSuite.EteAdvancemint 
+10:20:30.915 [EteAdvancemint@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteAdvancemint
+10:20:30.941 [EteAdvancemint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:20:30.942 [EteAdvancemint@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:20:30.948 [EteAdvancemint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:20:30.948 [EteAdvancemint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:20:30.948 [EteAdvancemint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:20:30.948 [EteAdvancemint@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:20:30.952 [EteAdvancemint@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+10:20:30.973 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteAdvancemint 
+10:20:30.974 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteAdvancemint
+10:20:30.989 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:20:30.989 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:20:30.993 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:20:30.993 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:20:30.993 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+10:20:30.993 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+10:20:30.993 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+10:20:30.994 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+10:20:31.008 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+10:20:31.008 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:20:31.008 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-10-10T23:20:31.008714900Z][ OBSERVABILITY ] Processing stop observability
+10:20:31.008 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 3
+
+10:20:31.009 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 12661
+10:20:31.009 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 12661
+10:20:31.259 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:20:31.259 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:20:31.260 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-10T23:20:31.260694700Z][ TESTHUB ] Batch event successfull!
+
+10:20:31.260 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+10:20:31.260 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/g9wojxcpy0ujigduicmwinpbx9jfditcw31lufdu/stop with request size 107
+10:20:31.260 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/g9wojxcpy0ujigduicmwinpbx9jfditcw31lufdu/stop with request size 107
+10:20:31.493 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+10:20:31.493 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:20:31.493 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+10:20:33.150 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteAdvancemint 
+10:20:33.150 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteAdvancemint
+10:20:33.157 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+10:20:33.157 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+10:20:33.157 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+10:20:33.157 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+10:20:33.636 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+10:20:33.636 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+10:20:33.636 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+10:20:33.638 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+10:20:33.668 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"NNkYHs8GUu9TTpEkAfk4","userName":"astadev1","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"02167ac5-c18a-4eaa-a16c-9f4732cc5ab7","buildIdentifier":"#1","error":"[{\"tests\":{\"RegressionSuite.EteAdvancemint-EteAdvancemint\":\"no such element: Unable to locate element: {\\\"method\\\":\\\"xpath\\\",\\\"selector\\\":\\\"\\\/html\\\/body\\\/app-root\\\/main\\\/app-mint-policy-nft\\\/div\\\/div[2]\\\/div\\\/div\\\/div[2]\\\/button[2]\\\"}   (Session info: chrome=125.0.6422.61) For documentation on this error, please visit: https:\\\/\\\/www.selenium.dev\\\/documentation\\\/webdriver\\\/troubleshooting\\\/errors#no-such-element-exception Build info: version: '4.22.0', revision: 'c5f3146703*' System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [327edc9f916509651006dab1afd6d630eb73b2bc, findElement {using=xpath, value=\\\/html\\\/body\\\/app-root\\\/main\\\/app-mint-policy-nft\\\/div\\\/div[2]\\\/div\\\/div\\\/div[2]\\\/button[2]}] Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.61, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\\\\Windows\\\\proxy\\\\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3109}, networkConnectionEnabled: false, optimalHubUrl: hub-usw.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 327edc9f916509651006dab1afd...} Session ID: 327edc9f916509651006dab1afd6d630eb73b2bc\",\"RegressionSuite.EteBulkmint-EteBulkmint\":\"no such element: Unable to locate element: {\\\"method\\\":\\\"xpath\\\",\\\"selector\\\":\\\"\\\/html\\\/body\\\/app-root\\\/main\\\/app-bulk-mint-policies\\\/div\\\/div\\\/div[2]\\\/div\\\/div\\\/div[1]\\\/div\\\/div[2]\\\/div\\\/div[4]\\\/div\\\/div\\\/label\\\"}   (Session info: chrome=125.0.6422.61) For documentation on this error, please visit: https:\\\/\\\/www.selenium.dev\\\/documentation\\\/webdriver\\\/troubleshooting\\\/errors#no-such-element-exception Build info: version: '4.22.0', revision: 'c5f3146703*' System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [359ba80ae0f9355a9635f65d9d4c5a977d3cad67, findElement {using=xpath, value=\\\/html\\\/body\\\/app-root\\\/main\\\/app-bulk-mint-policies\\\/div\\\/div\\\/div[2]\\\/div\\\/div\\\/div[1]\\\/div\\\/div[2]\\\/div\\\/div[4]\\\/div\\\/div\\\/label}] Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.61, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\\\\Windows\\\\proxy\\\\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2966}, networkConnectionEnabled: false, optimalHubUrl: hub-apse.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 359ba80ae0f9355a9635f65d9d4...} Session ID: 359ba80ae0f9355a9635f65d9d4c5a977d3cad67\"},\"os\":\"Windows\",\"osVersion\":\"10\",\"browser\":\"Chrome\",\"browserVersion\":\"125.0\"},{\"tests\":{\"RegressionSuite.EteBulkmint-EteBulkmint\":\"For documentation on this error, please visit: https:\\\/\\\/www.selenium.dev\\\/documentation\\\/webdriver\\\/troubleshooting\\\/errors#no-such-element-exception Build info: version: '4.22.0', revision: 'c5f3146703*' System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [2f0d3331aca41212f125e090c43ad6ef4162f91a, findElement {using=xpath, value=\\\/html\\\/body\\\/app-root\\\/main\\\/app-bulk-mint-policies\\\/div\\\/div\\\/div[2]\\\/div\\\/div\\\/div[1]\\\/div\\\/div[2]\\\/div\\\/div[4]\\\/div\\\/div\\\/label}] Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, optimalHubUrl: hub-apse.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21H1222, safari:platformVersion: 12.7.5, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 2f0d3331aca41212f125e090c43..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}} Session ID: 2f0d3331aca41212f125e090c43ad6ef4162f91a\"},\"os\":\"OS X\",\"osVersion\":\"Monterey\",\"browser\":\"Safari\",\"browserVersion\":\"15.6\"},{\"tests\":{\"RegressionSuite.EteBulkmint-EteBulkmint\":\"Element is not currently visible and may not be manipulated Build info: version: '4.22.0', revision: 'c5f3146703*' System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [cb40add0a269a4d02e796322c9c85d937b4be0b4, clickElement {id=5001}] Capabilities {automationName: XCUITest, bootstrapPath: \\\/usr\\\/local\\\/.browserstack\\\/co..., browserName: , browserVersion: null, browserstack.isTargetBased: true, bundleId: browserstack.chromium.p.71...., databaseEnabled: false, deviceName: iPhone 13, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, optimalHubUrl: hub-apse.browserstack.com, orientation: PORTRAIT, platform: MAC, platformName: IOS, realMobile: true, takesScreenshot: true, udid: 00008110-001019C23A92801E, useXctestrunFile: true, webStorageEnabled: false} Element: [[ChromeDriver:  on IOS (cb40add0a269a4d02e796322c9c85d937b4be0b4)] -> xpath: \\\/html\\\/body\\\/app-root\\\/header\\\/nav\\\/div\\\/div[2]\\\/ul\\\/li[10]\\\/button\\\/span] Session ID: cb40add0a269a4d02e796322c9c85d937b4be0b4\"},\"osVersion\":\"15\",\"browser\":\"Chromium\",\"deviceName\":\"iPhone 13\"}]","testhub_uuid":"g9wojxcpy0ujigduicmwinpbx9jfditcw31lufdu","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"ASTA-10L8DL3","measures":{"local:start":4573,"sdk:setup":5239,"local:stop":2139},"productUsage":{"testObservability":{"buildHashedId":"g9wojxcpy0ujigduicmwinpbx9jfditcw31lufdu","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":10,"triggeredCount":10,"failedCount":0},"finished":{"triggeredCount":8,"failedCount":0,"errors":[],"sentCount":7},"passed":{"errors":[],"sentCount":7,"triggeredCount":8,"failedCount":0}},"logEvents":{"errors":[],"sentCount":89,"triggeredCount":89,"failedCount":0,"log":{"errors":[],"sentCount":89,"triggeredCount":89,"failedCount":0}},"testEvents":{"started":{"errors":[],"sentCount":4,"triggeredCount":4,"failedCount":0},"finished":{"triggeredCount":4,"failedCount":0,"errors":[],"sentCount":4},"failed":{"errors":[],"sentCount":4,"triggeredCount":4,"failedCount":0}},"batchEvents":{"triggeredCount":19,"failedCount":0,"errors":[],"sentCount":19},"cbtSessionEvents":{"errors":[],"sentCount":0,"triggeredCount":0,"failedCount":0},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"11_Oct_1017_ASTA_10L8DL3_102T","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"capabilities":{},"browserVersion":"125.0","osVersion":"10","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":125.0,"browserName":"Chrome"},"os":"Windows","device":null,"browser":"Chrome","platformString":"Windows, 10, Chrome, 125.0","customVariables":"****"},{"capabilities":{},"browserVersion":"15.6","osVersion":"Monterey","platformCaps":{"os":"OS X","osVersion":"Monterey","browserVersion":15.6,"browserName":"Safari"},"os":"OS X","device":null,"browser":"Safari","platformString":"OS X, Monterey, Safari, 15.6","customVariables":"****"},{"capabilities":{"deviceOrientation":"portrait","deviceName":"iPhone 13"},"browserVersion":null,"osVersion":"15","platformCaps":{"osVersion":15,"browserName":"Chromium","deviceName":"iPhone 13"},"os":null,"device":"iPhone 13","browser":"Chromium","platformString":"iPhone 13, 15, Chromium","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"finishedMetadata":{"reason":"user_killed","signal":"SIGINT"},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"8.1.0","frameworkDetectionInstrumentation":{"parseLoadClass":5,"ret-org.openqa.selenium.remote.RemoteWebDriver":256,"retransformClasses":257,"parseDependencies":22},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.26.0","language_framework":"java_testng","detectedFramework":"testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+10:20:34.167 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+10:20:35.835 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  1) is not same as client side buildName(browserstack-build-1 #1)
+10:20:35.836 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
+09:57:00.067 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+09:57:00.594 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+09:57:00.594 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+09:57:01.069 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener org.testng.reporters.EmailableReporter2 -socket57366 @w@C:\Users\SiddharthKoka\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\SiddharthKoka\AppData\Local\Temp\idea_testng.tmp
+09:57:01.070 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+09:57:01.094 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+09:57:01.141 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+09:57:01.141 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+09:57:01.141 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.26.0
+09:57:01.144 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+09:57:01.145 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+09:57:01.145 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+09:57:01.145 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+09:57:01.742 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-apse.browserstack.com","hub-aps.browserstack.com","hub-usw.browserstack.com"]
+09:57:02.006 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 262ms
+09:57:02.833 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 824ms
+09:57:03.766 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 932ms
+09:57:03.769 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-apse.browserstack.com
+09:57:03.779 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"NNkYHs8GUu9TTpEkAfk4","userName":"astadev1","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"8.1.0","frameworkDetectionInstrumentation":{"parseLoadClass":15,"parseDependencies":45},"language":"java","sdkRunId":"0115c458-1dcd-4e2a-9c42-a3487a891824","buildIdentifier":"#2","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.26.0","hostname":"ASTA-10L8DL3","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+09:57:04.350 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+09:57:04.365 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+09:57:04.365 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 742
+09:57:04.365 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 742
+09:57:05.818 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+09:57:05.818 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:57:05.818 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : jsqxpgbirbbio7binm5ls1xwsbt6dnnacvvglusz
+09:57:05.818 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+09:57:05.823 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 21_Oct_957_ASTA_10L8DL3_kyiW
+09:57:15.279 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 3 and number of platforms - 3
+09:57:15.428 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.431 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.434 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.434 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.434 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.438 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.438 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.438 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.438 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.438 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.445 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.445 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.445 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.447 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.447 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.448 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.449 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.449 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.449 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.449 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.454 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.454 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.454 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.459 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.459 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.459 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.468 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.468 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.468 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.469 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.469 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.470 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.470 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.470 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.470 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.470 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.474 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.474 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.474 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.474 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.474 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.475 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.475 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.475 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.477 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.477 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.478 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.478 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.478 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.479 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.479 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.479 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.482 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.483 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.483 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.483 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.483 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.484 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.484 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.484 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.484 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.484 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.487 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.487 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.488 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.488 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.488 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.488 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.489 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.489 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.489 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.489 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.490 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.490 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.490 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.490 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.490 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.490 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.492 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:15.494 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-10-20T22:57:15.494977900Z][ OBSERVABILITY ] Processing Logs patching stream
+09:57:15.574 [Setup@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+09:57:15.574 [Setup@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+09:57:15.574 [Setup@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+09:57:15.574 [Setup@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+09:57:15.574 [Setup@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+09:57:15.574 [Setup@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+09:57:15.623 [Setup@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+09:57:15.623 [Setup@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+09:57:15.623 [Setup@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+09:57:15.623 [Setup@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+09:57:15.624 [Setup@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+09:57:15.624 [Setup@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+09:57:15.627 [Setup@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+09:57:15.627 [Setup@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+09:57:15.627 [Setup@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+09:57:17.366 [Setup@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+09:57:17.366 [Setup@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+09:57:17.366 [Setup@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+09:57:17.368 [Setup@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 50
+09:57:17.368 [Setup@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 49
+09:57:17.368 [Setup@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 51
+09:57:17.394 [Setup@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+09:57:17.395 [Setup@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+09:57:17.395 [Setup@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+09:57:17.435 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1729465037435
+
+09:57:17.445 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 82
+
+09:57:17.451 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 19303
+09:57:17.455 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 19303
+09:57:17.951 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+09:57:17.952 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:57:17.952 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-20T22:57:17.952660800Z][ TESTHUB ] Batch event successfull!
+
+09:57:19.445 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2008
+
+09:57:23.433 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3988
+
+09:57:24.418 [Setup@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-apse.browserstack.com
+09:57:24.418 [Setup@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+09:57:24.419 [Setup@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+09:57:24.420 [Setup@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+09:57:24.443 [Forwarding maximizeCurrentWindow on session 7754f2c51351f28b215fb15f987652d266f84038 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
+	at RegressionSuite.EteBulkmint.Setup(EteBulkmint.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+09:57:24.524 [DayByDay-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: RegressionSuite.EteBulkmint 
+09:57:24.524 [DayByDay-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+09:57:24.534 [DayByDay-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+09:57:24.534 [DayByDay-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+09:57:24.539 [DayByDay-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+09:57:24.539 [DayByDay-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+09:57:24.539 [DayByDay-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+09:57:24.539 [DayByDay-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+09:57:24.543 [DayByDay-1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+09:57:25.441 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2008
+
+09:57:25.441 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+09:57:25.441 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1522
+09:57:25.441 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1522
+09:57:25.669 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+09:57:25.669 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:57:25.670 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-20T22:57:25.669566Z][ TESTHUB ] Batch event successfull!
+
+09:57:26.868 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:27.443 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+09:57:27.443 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+09:57:27.443 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 231
+09:57:27.443 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 231
+09:57:27.671 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+09:57:27.671 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:57:27.671 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-20T22:57:27.671778600Z][ TESTHUB ] Batch event successfull!
+
+09:57:31.434 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3991
+
+09:57:33.446 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2012
+
+09:57:37.442 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3996
+
+09:57:41.442 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+09:57:45.149 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:45.446 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4004
+
+09:57:45.446 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+09:57:45.446 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 243
+09:57:45.446 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 243
+09:57:45.674 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+09:57:45.674 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:57:45.674 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-20T22:57:45.674717700Z][ TESTHUB ] Batch event successfull!
+
+09:57:47.473 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+09:57:49.442 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3996
+
+09:57:49.442 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+09:57:49.442 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 227
+09:57:49.442 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 227
+09:57:49.673 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+09:57:49.673 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:57:49.673 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-20T22:57:49.673005900Z][ TESTHUB ] Batch event successfull!
+
+09:57:53.434 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3992
+
+09:57:56.000 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteBulkmint 
+09:57:56.000 [EteBulkmint@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+09:57:56.008 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+09:57:56.008 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+09:57:56.009 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+09:57:56.010 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+09:57:56.010 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+09:57:56.010 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+09:57:56.010 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+09:57:56.010 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: RegressionSuite.EteBulkmint 
+09:57:56.010 [EteBulkmint@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+09:57:56.017 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+09:57:56.017 [EteBulkmint@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+09:57:56.020 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+09:57:56.020 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+09:57:56.020 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+09:57:56.020 [EteBulkmint@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+09:57:56.025 [EteBulkmint@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+09:57:56.054 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteBulkmint 
+09:57:56.054 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+09:57:56.063 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+09:57:56.064 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+09:57:56.065 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+09:57:56.065 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+09:57:56.065 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+09:57:56.065 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-apse.browserstack.com/wd/hub
+09:57:56.065 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+09:57:56.065 [tearDown@1] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+09:57:57.443 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4009
+
+09:57:57.443 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 3
+
+09:57:57.444 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 9948
+09:57:57.444 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 9948
+09:57:57.672 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+09:57:57.673 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:57:57.674 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-20T22:57:57.673459700Z][ TESTHUB ] Batch event successfull!
+
+09:57:58.305 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: RegressionSuite.EteBulkmint 
+09:57:58.305 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteBulkmint
+09:57:58.315 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+09:57:58.315 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteBulkmint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+09:57:58.315 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+09:57:58.319 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: RegressionSuite.EteAdvancemint 
+09:57:58.319 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Eclipce-workplace\DBD\DayByDay, TestClass :: RegressionSuite\EteAdvancemint
+09:57:58.327 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Eclipce-workplace\DBD\DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, fileSeparator :: \, AbsolutePath :: C:\Eclipce-workplace\DBD\DayByDay\., Normalized Path :: C:\Eclipce-workplace\DBD\DayByDay, File.Separator :: \
+09:57:58.327 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: DayByDay\src\test\java\RegressionSuite\EteAdvancemint.java, Absolute Path :: C:\Eclipce-workplace\DBD\DayByDay\.., Normalized Path :: C:\Eclipce-workplace\DBD 
+09:57:58.327 [setUp@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+09:57:58.807 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+09:57:58.808 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 50
+09:57:58.808 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@1611d83c
+09:57:58.808 [setUp@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+09:57:58.810 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+09:58:01.441 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+09:58:01.441 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+09:58:01.442 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1578
+09:58:01.442 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1578
+09:58:01.678 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+09:58:01.678 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:58:01.678 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-10-20T22:58:01.678035200Z][ TESTHUB ] Batch event successfull!
+
+09:58:05.435 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3994
+
+09:58:07.440 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2005
+
+09:58:11.432 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3991
+
+09:58:13.440 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2008
+
+09:58:17.442 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4002
+
+09:58:21.431 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3989
+
+09:58:23.435 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2004
+
+09:58:25.445 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2009
+
+09:58:29.444 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+09:58:33.440 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3996
+
+09:58:37.435 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3995
+
+09:58:39.445 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2010
+
+09:58:41.630 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+09:58:41.631 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+09:58:41.631 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-10-20T22:58:41.631585Z][ OBSERVABILITY ] Processing stop observability
+09:58:41.631 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+09:58:41.631 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/jsqxpgbirbbio7binm5ls1xwsbt6dnnacvvglusz/stop with request size 107
+09:58:41.631 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/jsqxpgbirbbio7binm5ls1xwsbt6dnnacvvglusz/stop with request size 107
+09:58:41.860 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+09:58:41.860 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+09:58:41.860 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+09:58:44.744 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+09:58:44.744 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+09:58:44.744 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+09:58:44.747 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+09:58:44.798 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"NNkYHs8GUu9TTpEkAfk4","userName":"astadev1","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"0115c458-1dcd-4e2a-9c42-a3487a891824","buildIdentifier":"#2","error":"[{\"tests\":{\"RegressionSuite.EteBulkmint-EteBulkmint\":\"For documentation on this error, please visit: https:\\\/\\\/www.selenium.dev\\\/documentation\\\/webdriver\\\/troubleshooting\\\/errors#no-such-element-exception Build info: version: '4.22.0', revision: 'c5f3146703*' System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [7754f2c51351f28b215fb15f987652d266f84038, findElement {using=xpath, value=\\\/html\\\/body\\\/app-root\\\/main\\\/app-bulk-mint-policies\\\/div\\\/div\\\/div[2]\\\/div\\\/div\\\/div[1]\\\/div\\\/div[1]\\\/div\\\/div\\\/button[2]}] Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, optimalHubUrl: hub-apse.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21H1222, safari:platformVersion: 12.7.5, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 7754f2c51351f28b215fb15f987..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}} Session ID: 7754f2c51351f28b215fb15f987652d266f84038\"},\"os\":\"OS X\",\"osVersion\":\"Monterey\",\"browser\":\"Safari\",\"browserVersion\":\"15.6\"}]","testhub_uuid":"jsqxpgbirbbio7binm5ls1xwsbt6dnnacvvglusz","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"ASTA-10L8DL3","measures":{"local:start":8978,"sdk:setup":6789,"local:stop":2878},"productUsage":{"testObservability":{"buildHashedId":"jsqxpgbirbbio7binm5ls1xwsbt6dnnacvvglusz","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":5,"failedCount":0,"triggeredCount":5},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"passed":{"errors":[],"sentCount":2,"failedCount":0,"triggeredCount":2}},"logEvents":{"errors":[],"sentCount":82,"failedCount":0,"triggeredCount":82,"log":{"errors":[],"sentCount":82,"failedCount":0,"triggeredCount":82}},"testEvents":{"started":{"errors":[],"sentCount":1,"failedCount":0,"triggeredCount":1},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"failed":{"errors":[],"sentCount":1,"failedCount":0,"triggeredCount":1}},"batchEvents":{"triggeredCount":7,"failedCount":0,"errors":[],"sentCount":7},"cbtSessionEvents":{"errors":[],"sentCount":0,"failedCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"21_Oct_957_ASTA_10L8DL3_kyiW","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"capabilities":{},"browserVersion":"125.0","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":125.0,"browserName":"Chrome"},"osVersion":"10","os":"Windows","browser":"Chrome","device":null,"platformString":"Windows, 10, Chrome, 125.0","customVariables":"****"},{"capabilities":{},"browserVersion":"15.6","platformCaps":{"os":"OS X","osVersion":"Monterey","browserVersion":15.6,"browserName":"Safari"},"osVersion":"Monterey","os":"OS X","browser":"Safari","device":null,"platformString":"OS X, Monterey, Safari, 15.6","customVariables":"****"},{"capabilities":{"deviceOrientation":"portrait","deviceName":"iPhone 13"},"browserVersion":null,"platformCaps":{"osVersion":15,"browserName":"Chromium","deviceName":"iPhone 13"},"osVersion":"15","os":null,"browser":"Chromium","device":"iPhone 13","platformString":"iPhone 13, 15, Chromium","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"finishedMetadata":{"reason":"user_killed","signal":"SIGINT"},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"21.0.1","appiumVersion":"8.1.0","frameworkDetectionInstrumentation":{"parseLoadClass":15,"ret-org.openqa.selenium.remote.RemoteWebDriver":250,"retransformClasses":250,"parseDependencies":45},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.26.0","language_framework":"java_testng","detectedFramework":"testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+09:58:45.130 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+09:58:46.935 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  2) is not same as client side buildName(browserstack-build-1 #2)
+09:58:46.936 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
