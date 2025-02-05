@@ -1,0 +1,9 @@
+{
+  "name": "Devent Execution",
+  "type": "Regression",
+  "url": "https://devnet.daybyday.io/",
+  "buildName": "Test Run DBD_001",
+  "buildUrl": "https://devnet.daybyday.io/",
+  "reportUrl": "http://10.17.20.89:60796/index.html#",
+  "reportName": "DayByDay Regression Test Report"
+}
