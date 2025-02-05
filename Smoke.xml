@@ -1,0 +1,9 @@
+<suite name="RegressionSuite">
+    <test name="Facebook Login Tests">
+        <classes>
+            <class name="RegressionSuite.EteAdvancemint"/>
+            <class name="RegressionSuite.EteBulkmint"/>
+            <class name="RegressionSuite.UnderwritePoly"/>
+        </classes>
+    </test>
+</suite>
