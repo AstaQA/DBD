@@ -1,0 +1,11 @@
+<suite name="RegressionSuite">
+    <test name="Algorand Smoke">
+        <classes>
+            <class name="base.BaseTest"/>
+            <class name="RegressionSuite.Algorand.EteAdvancemint"/>
+            <class name="RegressionSuite.Algorand.EteBulkmint"/>
+            <class name="RegressionSuite.Algorand.UnderwriteAlgorand"/>
+
+        </classes>
+    </test>
+</suite>

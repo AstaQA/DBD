@@ -1,0 +1,10 @@
+<suite name="RegressionSuite">
+    <test name="Polygon Smoke">
+        <classes>
+            <class name="base.BaseTest"/>
+            <class name="RegressionSuite.Polygon.AdvancemintPoly"/>
+            <class name="RegressionSuite.Polygon.BulkmintPoly"/>
+            <class name="RegressionSuite.Polygon.UnderwritePoly"/>
+        </classes>
+    </test>
+</suite>
